@@ -44,4 +44,33 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/)
+
+# MongoDB Assignment
+
+## Setup Instructions
+
+1. Install MongoDB Community Edition or set up MongoDB Atlas
+2. Open MongoDB Shell (mongosh)
+3. Create and use the database:
+```
+use plp_bookstore
+```
+
+4. Run the insert script:
+```
+load("insert_books.js")
+```
+
+5. Execute queries from queries.js file:
+```
+load("queries.js")
+```
+
+## Database Structure
+- Database: plp_bookstore
+- Collection: books
+- Document structure includes: title, author, genre, published_year, price, in_stock, pages, publisher
+
+## Screenshots
+[Add your MongoDB Compass/Atlas screenshots here]
